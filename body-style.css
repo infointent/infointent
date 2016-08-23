@@ -58,7 +58,7 @@ input {border: none;box-sizing: border-box;}
 .mega_post-image {display: block;width: 100%;height: 180px;margin-bottom: 10px;border: 2px solid #747474;}
 .mega_post-title {font-family: Arial,Georgia,Serif;font-weight: 700;line-height: 1.7;}
 .stickyHeader {width: 100%}
-.fixed {position: fixed;top:0;z-index: 9;}
+.fixed {position: fixed;top:0;z-index: 99;}
 /*--SearchBox--*/
 .search-btn{float:right;position: relative;right: 45px;top:12px;left:0px;border-radius: 3px;background-color:  #3a3c3e;width: 44px;height: 39px;cursor: pointer;-ms-user-select: none;-moz-user-select: none;-webkit-user-select: none;user-select: none;}
 .search-btn:before {position: absolute;content: '';border-radius: 50%;border: 3px solid #fff;width: 12px;height: 12px;top: 12px;left: 14px;}
@@ -97,14 +97,15 @@ input {border: none;box-sizing: border-box;}
 .post-title.entry-title {font-family: Arial,Georgia,Serif;font-size: 1.3rem;text-transform: capitalize;margin-bottom: 25px;line-height: 1.6;font-weight: 700;}
 .post-title.entry-title a:hover {color: #21759b;}
 .summary {line-height: 1.7;font-size: 1rem;}
-/*--PostMeta--*/
+/*--PostMetaHome--*/
 .post-meta {position: absolute;bottom: 0;padding: 10px 25px;left: 0;right: 0;color: #333333;font-size: 0.875rem;border-bottom:3px solid #21759b;}
 .post-comment-link {white-space: nowrap;}
 .post-timestamp {margin-left: 0 !important;margin-right: 45px;white-space: nowrap;}
 .read-more {position: absolute;right: 0;bottom: 0;background-color: #21759b;color: #fff !important;padding: 13px 10px;}
+/*--PostMetaIndex--*/
 .post-header {padding: 10px 20px;margin-bottom: 25px;}
+.post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 1px;margin-bottom: 15px;}
 .post-footer {font-size: 0.875rem;font-weight: 500;border-top: 2px solid #21759b;}
-.post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 5px;margin-bottom: 15px;}
 .post-author.vcard {margin-right: 40px;}
 div#___plusone_0 {width: 185px !important;}
 .post-labels {font-size: 0.875rem;margin-top: 15px;border: 4px solid #21759b;text-transform: capitalize;}
@@ -251,9 +252,9 @@ overflow: hidden;padding: 10px;margin: 0 0 10px;font-family: Arial,Georgia,Serif
 #send-button:hover {background: #555;}
 /*--SocialConnect--*/
 .sidebar-wrapper .HTML {font-size: 0;}
-.social_item-wrapper {float: left;width: 30.67%;text-align: center;margin-right: 4% !important;margin-bottom: 15px !important;color: #fff;}
-.social_item-wrapper:nth-child(3n+3) {margin-right: 0 !important;}
-.social_item-wrapper a{border-radius: 40px;}
+.social_item-follow {float: left;width: 30.67%;text-align: center;margin-right: 4% !important;margin-bottom: 15px !important;color: #fff;}
+.social_item-follow:nth-child(3n+3) {margin-right: 0 !important;}
+.social_item-follow a{border-radius: 40px;}
 .social_item {position: relative;display: block;padding: 10px 0;border-radius: 4px;font-size: 0.875rem;overflow: hidden;}
 .social_item:before {content: '';display: block;position: absolute;bottom: -4px;left: 0;right: 0;}
 .social_icon {position: relative;margin-bottom: 8px;font-size: 1.2rem;z-index: 2;}
@@ -286,24 +287,24 @@ overflow: hidden;padding: 10px;margin: 0 0 10px;font-family: Arial,Georgia,Serif
 .follow-by-email-submit {width: 100%;margin-top:.5em;margin-left: 1px;font-weight:20;font-size:2.5rem;border: 1;border-radius: 2px;-moz-border-radius: 2px;background: #21759b;color: #fff;cursor: pointer;font-size: 16px;height: 40px;z-index: 0;}
 /*--SocialShare--*/
 .social-box{height:30px;position:relative;line-height:0;margin:20px 0;padding:0}
-.social-art{display:block;margin:0;padding:0}
-.social-art a{float:left;width:18.4%;height:30px;line-height:30px;color:#fff;font-weight:400;font-size:15px;text-align:center;display:inline-block;margin:0 2% 0 0;padding:0;box-sizing:border-box;border-radius: 15%;}
-.social-art a:hover{color:#fff}
-.social-art .fac-art i{padding-right:2px}
-.social-art .fac-art{background:#3b5998}
-.social-art .fac-art:hover{background:rgba(49,77,145,0.7)}
-.social-art .twi-art{background:#00acee}
-.social-art .twi-art:hover{background:rgba(7,190,237,0.7)}
-.social-art .goo-art{background:#db4a39}
-.social-art .goo-art:hover{background:rgba(221,75,56,0.7)}
-.social-art .pin-art{background:#CA2127}
-.social-art .pin-art:hover{background:rgba(202,33,39,0.7)}
-.social-art .lin-art{background:#0077B5;margin-right:0}
-.social-art .lin-art:hover{background:rgba(0,119,181,0.7)}
-.social-art .rss-art{background:#FA9B39}
-.social-art .rss-art:hover{background:rgba(239,155,50,0.7)}
-.social-art .ytube-art{background:#e52d27;margin-right:0}
-.social-art .ytube-art:hover{background:rgba(220,40,30,0.7)}
+.social-share{display:block;margin:0;padding:0}
+.social-share a{float:left;width:18.4%;height:30px;line-height:30px;color:#fff;font-weight:400;font-size:15px;text-align:center;display:inline-block;margin:0 2% 0 0;padding:0;box-sizing:border-box;border-radius: 15%;}
+.social-share a:hover{color:#fff}
+.social-share .fac-share i{padding-right:2px}
+.social-share .fac-share{background:#3b5998}
+.social-share .fac-share:hover{background:rgba(49,77,145,0.7)}
+.social-share .twi-share{background:#00acee}
+.social-share .twi-share:hover{background:rgba(7,190,237,0.7)}
+.social-share .goo-share{background:#db4a39}
+.social-share .goo-share:hover{background:rgba(221,75,56,0.7)}
+.social-share .pin-share{background:#CA2127}
+.social-share .pin-share:hover{background:rgba(202,33,39,0.7)}
+.social-share .lin-share{background:#0077B5;margin-right:0}
+.social-share .lin-share:hover{background:rgba(0,119,181,0.7)}
+.social-share .rss-share{background:#FA9B39}
+.social-share .rss-share:hover{background:rgba(239,155,50,0.7)}
+.social-share .ytube-share{background:#e52d27;margin-right:0}
+.social-share .ytube-share:hover{background:rgba(220,40,30,0.7)}
 /*--BackToTop--*/
 .back-to-top {position: fixed;bottom: 1.5em;right: 5px;font-size:48px;color:#21759b;}
 /*--ContactForm--*/
@@ -344,7 +345,7 @@ overflow: hidden;padding: 10px;margin: 0 0 10px;font-family: Arial,Georgia,Serif
 .divider {display: none;}
 .blog-posts-wrapper {float: none;max-width: 100%;margin-bottom: 30px;}
 .sidebar-wrapper {float: none;width: 100%;}
-.social_item-wrapper {width: 30.6%;}
+.social_item-follow {width: 30.6%;}
 .recent-post-item {width: 100%;}
 #footer-wrapper .container > .section {width: 100%;float: none;}
 }
