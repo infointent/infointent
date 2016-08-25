@@ -25,6 +25,7 @@ input {border: none;box-sizing: border-box;}
 .widget ul {padding: 0;}
 .widget-item-control {display: none !important;}
 .entry-content h2, .entry-content h3, .entry-content h4 {color: $(main.text.color);font-weight: bold;margin-bottom: 10px;font-family: Arial,Georgia,Serif;}
+.entry-content {font-size: 1rem;}
 /*--Loader--*/
 .no-js #loader {display: none;}
 .js #loader {display: block;position: absolute;top: 0;}
@@ -79,11 +80,10 @@ input {border: none;box-sizing: border-box;}
 .post-comment-link {white-space: nowrap;}
 .read-more {position: absolute;right: 0;bottom: 0;background-color: #21759b;color: #fff !important;padding: 13px 10px;}
 /*--PostMetaIndex--*/
-.post-header {padding: 10px 20px;margin-bottom: 25px;}
-.post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 1px;margin-bottom: 15px;}
+.post-header {padding: 10px 10px;margin-bottom: 5px;margin-left: 0 !important;}
+.post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 2px;margin-left: 0 !important;}
 .post-footer {font-size: 0.875rem;font-weight: 500;border-top: 2px solid #21759b;}
 .post-author.vcard {margin-right: 40px;}
-div#___plusone_0 {width: 185px !important;}
 .post-labels {font-size: 0.875rem;margin-top: 15px;border: 4px solid #21759b;text-transform: capitalize;}
 .labels-head {display: inline-block;background-color: #21759b;padding: 10px;color: #fff;margin-right: 5px;}
 .post-labels .post-label-anchor {color: #464646;margin-right: 6px;margin-left: 3px;}
@@ -194,14 +194,13 @@ div#___plusone_0 {width: 185px !important;}
 .recentposts .heading:hover {color: #21759b;}
 /*--Footer--*/
 #footer-segment {background: #333333;color: #A1A1A1;padding: 30px 0 0;}
-#footer-copyright {padding: 2px 0 5px;text-align: center;font-family: Arial,Georgia,Serif;}
+#footer-copyright {padding: 2px 0 5px;text-align: center;font-family: Georgia,Serif;}
 #footer-copyright a{color:#21759b;}
-#footer-segment .container > .section {float: left;width: 30%;margin-right: 5%;}
+#footer-segment .container > .section {float: left;width: 45%;margin-right: 5%;}
 #footer-right {margin-right: 0 !important;}
 #footer-segment .widget > h2 {margin-bottom: 25px;text-transform: uppercase;color: #FFFFFF;border-bottom: 3px solid #21759b;position: relative;text-align: center;width: 100%;}
 #footer-left img {margin-bottom: 20px;}
 #footer-segment .widget {margin-bottom: 5px;}
-/*--SocialIcons--*/
 #footer-segment .LinkList {color: #fff;}
 #footer-segment .LinkList li {float: left;margin-right: 5px;}
 #footer-segment .LinkList a {display: block;background-color: #212121;width: 30px;height: 30px;text-align: center;line-height: 30px;}
@@ -271,7 +270,7 @@ overflow: hidden;padding: 10px;margin: 0 0 10px;font-family: Arial,Georgia,Serif
 .social_linkedin {background-color: #0275B6; border-bottom: 4px solid #015380;}
 .social_linkedin:before {background-color: #015380;}
 /*--SocialIcons--*/
-.footer-social-icons{margin-top: 2px;width: 100%;height: 40px;}
+.footer-social-icons{margin-top: 2px;width: 100%;height: 40px;text-align: center;}
 .footer-social-icons a{display: inline-block;width: 35px;height: 35px;	cursor: pointer;border-radius: 50%;font-size: 20px;color: #ffffff;text-align: center;line-height: 35px;margin-right: 3px;margin-bottom: 5px;}
 .footer-social-icons a:hover{background:#21759b;}
 .meta-social-icons{margin-top: 2px;margin-left:2px}
@@ -303,7 +302,7 @@ overflow: hidden;padding: 10px;margin: 0 0 10px;font-family: Arial,Georgia,Serif
 .social-share .ytube-share{background:#e52d27;margin-right:0}
 .social-share .ytube-share:hover{background:rgba(220,40,30,0.7)}
 /*--BackToTop--*/
-.back-to-top {position: fixed;bottom: 1.5em;right: 5px;font-size:48px;color:#21759b;}
+.back-to-top {position: fixed;bottom: 1.5em;right: 5px;font-size:40px;}
 /*--ContactForm--*/
 .contact-form-widget {margin-left:auto;margin-right:auto;width: 600px;max-width: 100%;padding: 0px;color: #000;}
 .fm_name, .fm_email {float:left;padding:5px;width:48%}
