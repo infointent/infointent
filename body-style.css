@@ -24,8 +24,9 @@ input {border: none;box-sizing: border-box;}
 .widget li {padding: 0;}
 .widget ul {padding: 0;}
 .widget-item-control {display: none !important;}
-.entry-content h2, .entry-content h3, .entry-content h4 {color: $(main.text.color);font-weight: bold;margin-bottom: 10px;font-family: Arial,Georgia,Serif;}
+.entry-content h2, .entry-content h3, .entry-content h4 {font-weight: bold;margin-bottom: 10px;font-family: Arial,Georgia,Serif;}
 .entry-content {font-size: 1rem;}
+.entry-content a{color: #21759b;}
 /*--Loader--*/
 .no-js #loader {display: none;}
 .js #loader {display: block;position: absolute;top: 0;}
