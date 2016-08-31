@@ -30,7 +30,7 @@ input {border: none;box-sizing: border-box;}
 .entry-content h3{font-size:1.2rem;}
 .entry-content h4 {font-size:1.1rem;}
 .entry-content a{color: #21759b;}
-.entry-content b{font-weight: 700;}
+.entry-content b{font-weight: 600;}
 /*--Loader--*/
 .no-js #loader {display: none;}
 .js #loader {display: block;position: absolute;top: 0;}
@@ -72,8 +72,8 @@ input {border: none;box-sizing: border-box;}
 .index-post:last-child {margin-right: 0 !important;}
 .index_post-image {display: block;width: 100%;height: 180px;margin-bottom: 10px;border: 2px solid #747474;}
 .index_post-title {font-family: Arial,Georgia,Serif;font-weight: 700;line-height: 1.7;}
-.stickyHeader {width: 100%}
-.fixed {position: fixed;top:0;z-index: 99;}
+.stickyHeader {width: 100%;-webkit-appearance: none;-moz-appearance: none;appearance: none;}
+.fixed {position: fixed;top:0;z-index: 9;}
 .header-fixed-placeholder{height: 80px;display: none;}
 .fixed .header-fixed-placeholder {display: block;}
 /*--SearchBox--*/
@@ -100,7 +100,7 @@ input {border: none;box-sizing: border-box;}
 .post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 2px;margin-left: 0 !important;}
 .post-footer {font-size: 0.875rem;font-weight: 500;border-top: 2px solid #21759b;}
 .post-author.vcard {margin-right: 40px;}
-.post-labels {font-size: 0.875rem;margin-top: 15px;border: 4px solid #21759b;text-transform: capitalize;}
+.post-labels {font-size: 0.875rem;margin-top: 15px;border: 5px solid #21759b;text-transform: capitalize;}
 .labels-head {display: inline-block;background-color: #21759b;padding: 12px;color: #fff;margin-right: 5px;}
 .post-labels .post-label-anchor {color: #464646;margin-right: 6px;margin-left: 3px;}
 .post-labels .post-label-anchor:hover {background-color: #21759b;color: #fff;padding:15px;}
