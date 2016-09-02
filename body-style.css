@@ -31,6 +31,7 @@ input {border: none;box-sizing: border-box;}
 .entry-content h4 {font-size:1.1rem;}
 .entry-content a{color: #21759b;}
 .entry-content b{font-weight: 600;}
+.entry-content i{font-style: italic;}
 /*--Loader--*/
 .no-js #loader {display: none;}
 .js #loader {display: block;position: absolute;top: 0;}
