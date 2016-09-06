@@ -25,10 +25,10 @@ input {border: none;box-sizing: border-box;}
 .widget ul {padding: 0;}
 .widget-item-control {display: none !important;}
 .entry-content h2, .entry-content h3, .entry-content h4 {font-weight: bold;margin-bottom: 10px;margin-top: 10px;font-family: Arial,Georgia,Serif;}
-.entry-content {font-size: 1rem;}
+.entry-content {font-size: 1.1rem;}
+.entry-content h4 {font-size:1.2rem;}
+.entry-content h3{font-size:1.3rem;}
 .entry-content h2 {font-size:1.5rem;}
-.entry-content h3{font-size:1.2rem;}
-.entry-content h4 {font-size:1.1rem;}
 .entry-content a{color: #21759b;}
 .entry-content b{font-weight: 600;}
 .entry-content i{font-style: italic;}
@@ -100,6 +100,7 @@ input {border: none;box-sizing: border-box;}
 .post-header {padding: 10px 10px;margin-bottom: 5px;margin-left: 0 !important;}
 .post-header .post-title {border-bottom: 2px solid #21759b;padding-bottom: 2px;margin-left: 0 !important;}
 .post-footer {font-size: 0.875rem;font-weight: 500;border-top: 2px solid #21759b;}
+.post-footer .icon{font-size: 1.2rem;font-weight: 600;}
 .post-author.vcard {margin-right: 40px;}
 .post-labels {font-size: 0.875rem;margin-top: 15px;border: 5px solid #21759b;text-transform: capitalize;}
 .labels-head {display: inline-block;background-color: #21759b;padding: 12px;color: #fff;margin-right: 5px;}
@@ -182,7 +183,7 @@ input {border: none;box-sizing: border-box;}
 .PopularPosts .widget-content li:last-child {border-bottom: 0;padding-bottom: 0;}
 .PopularPosts .item-thumbnail {float: none;display: table-cell;}
 .PopularPosts .item-thumbnail img {width: 145px;height: 80px;padding-right: 0 !important;border: 1px solid #fff;border-radius: 5%;}
-.PopularPosts .item-title {padding-left: 13px;display: table-cell;vertical-align: middle;line-height: 1.5;font-family: Arial,Georgia,Serif;font-size: 0.875rem;font-weight: 700;text-transform: capitalize;}
+.PopularPosts .item-title {padding-left: 13px;display: table-cell;vertical-align: middle;line-height: 1.5;font-family: Arial,Georgia,Serif;font-size: 0.875rem;font-weight: 700;text-transform: capitalize;border-bottom: 2px solid #e6e6e6;}
 .PopularPosts .item-title a:hover {color: #21759b;}
 /*--RelatedPosts--*/
 .related-posts {width: 100%;margin-bottom: 30px;margin-top: 30px;}
