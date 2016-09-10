@@ -179,12 +179,10 @@ input {border: none;box-sizing: border-box;}
 .unneeded-paging-control {visibility: hidden}
 
 /*--searchStatus--*/
-.status-msg-wrap {font-size: 1rem;width: 100%;margin-top: 0 !important;margin-bottom: 20px;position: relative;}
+.status-msg-wrap {font-size: 1rem;width: 100%;margin-top: 2px;margin-bottom: 20px;position: relative;border:.2px dotted #21759b;}
 .status-msg-wrap a{padding-left:.4em;text-decoration:underline}
-.status-msg-border{border:1px solid #000;filter:alpha(opacity=40);-moz-opacity:.4;opacity:.4;width:100%;position:relative}
-.status-msg-bg {background-color: #f7f7f7;opacity:.8;filter:alpha(opacity=30);-moz-opacity:.8;width:100%;position:relative;z-index:1}
-.status-msg-body{text-align:center;padding:.3em 0;width:100%;position:absolute;z-index:4}
-.status-msg-hidden{visibility:hidden;padding:.3em 0}
+.status-msg-wrap b{font-weight:600;}
+.status-msg-body{text-align:center;padding:.3em 0;width:100%;position:absolute;z-index:1;color: #464646;}
 .home-page-btn {color: #21759b !important;}
 .home-page-btn:hover {text-decration: unferline;}
 /*--Sidebar--*/
