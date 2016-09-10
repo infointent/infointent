@@ -1,6 +1,4 @@
-.main-menu {width: 100%;margin: 0 auto;padding: 0;max-width: 82.667em;min-height: 15.5em;}
-.icon-home, .icon-blog, .icon-social, .icon-internet, .icon-mobile,.icon-about, .icon-contact, .icon-menu,.icon-google,.icon-facebook,.icon-twitter,.icon-rss,.icon-pin,.icon-ytube,.icon-linkedin {font-family: FontAwesome;speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;}
-
+.icon-gplus,.icon-facebook,.icon-twitter,.icon-rss,.icon-pin,.icon-ytube,.icon-linkedin,.icon-user,.icon-clock,.icon-comment,.icon-edit,.icon-tag,.icon-arrow-up,.icon-delete,.icon-email,.icon-submit,.icon-search,.icon-lock,.icon-exclamation,.icon-setting,.icon-share,.icon-whatsapp {font-family: FontAwesome;speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;}
 .icon-gplus:before {content:"\f0d5";}
 .icon-facebook:before {content:"\f09a";}
 .icon-twitter:before {content:"\f0e1";}
@@ -24,6 +22,8 @@
 .icon-share:before {content:"\f1e0";}
 .icon-whatsapp:before {content:"\f232";}
 
+.main-menu {width: 100%;margin: 0 auto;padding: 0;max-width: 82.667em;min-height: 15.5em;}
+.icon-home, .icon-blog, .icon-social, .icon-internet, .icon-mobile,.icon-about, .icon-contact, .icon-menu {font-family: FontAwesome;speak: none;font-style: normal;font-weight: normal;font-variant: normal;text-transform: none;line-height: 1;-webkit-font-smoothing: antialiased;}
 .icon-home:before {content: "\f015";}
 .icon-blog:before {content:"\f02d";}
 .icon-social:before {content: "\f164";}
