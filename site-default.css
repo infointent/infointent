@@ -179,7 +179,7 @@ input {border: none;box-sizing: border-box;}
 .unneeded-paging-control {visibility: hidden}
 
 /*--searchStatus--*/
-.status-msg-wrap {font-size: 1rem;width: 100%;margin-top: 2px;margin-bottom: 20px;position: relative;border:.2px dotted #21759b;}
+.status-msg-wrap {font-size: 1rem;width: 100%;margin-top: 2px;margin-bottom: 25px;position: relative;border:.1px dotted #fff;}
 .status-msg-wrap a{padding-left:.4em;text-decoration:underline}
 .status-msg-wrap b{font-weight:600;}
 .status-msg-body{text-align:center;padding:.3em 0;width:100%;position:absolute;z-index:1;color: #464646;}
@@ -215,7 +215,7 @@ input {border: none;box-sizing: border-box;}
 .PopularPosts .item-thumbnail {float: none;display: table-cell;}
 .PopularPosts .item-thumbnail img {width: 145px;height: 80px;padding-right: 0 !important;border: 1px solid #fff;border-radius: 5%;}
 .PopularPosts .item-title {padding-left: 13px;display: table-cell;vertical-align: middle;line-height: 1.5;font-family: Arial,Georgia,Serif;font-size: 0.875rem;font-weight: 700;text-transform: capitalize;border-bottom: 2px solid #e6e6e6;}
-.PopularPosts .widget-content a{padding-left: 13px;display: table-cell;vertical-align: middle;line-height: 1.5;font-family: Arial,Georgia,Serif;font-size: 0.875rem;font-weight: 700;text-transform: capitalize;border-bottom: 2px solid #e6e6e6;}
+.PopularPosts .widget-content a{padding-left: 13px;display: table-cell;vertical-align: middle;line-height: 1.5;font-family: Arial,Georgia,Serif;font-size: 0.975rem;font-weight: 700;text-transform: capitalize;border-bottom: 2px solid #e6e6e6;}
 .PopularPosts .widget-content a:hover {color: #21759b;}
 .PopularPosts .item-title a:hover {color: #21759b;}
 /*--RelatedPosts--*/
@@ -392,7 +392,7 @@ list-style-image: none;list-style-position: outside;border-width: 0;padding-left
 .summary {margin-bottom: 10px;}
 .post-meta {position: static;}
 .back-to-top {font-size:32px !important;}
-
+.status-msg-wrap {margin-bottom: 35px;}
 }
 @media only screen and (max-width: 575px) {
 .author-avatar {float: none;display: block;margin-left: auto;margin-right: auto;}
@@ -426,6 +426,7 @@ list-style-image: none;list-style-position: outside;border-width: 0;padding-left
 .comment-tab-item {padding: 10px 8px 8px !important;}
 #footer-segment {padding: 0;font-size: 10px;}
 .search-box  form input {width: 255px;}
+.status-msg-wrap {margin-bottom: 42px;}
 }
 @media only screen and (max-width: 288px) {
 .read-more {padding: 16px;width:100%;}
